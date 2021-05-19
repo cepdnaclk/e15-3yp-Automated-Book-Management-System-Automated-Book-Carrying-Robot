@@ -3,66 +3,63 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-3yp-project-template
-title:
+repository-name: e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot
+
+title: Automated Book Management System - Automated Book Carrying Robot
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Automated Book Management System - Automated Book Carrying Robot
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/15/016, ANOJAN S., [e15016@eng.pdn.ac.lk](mailto:e15016@eng.pdn.ac.lk)
+-  E/15/171, KAPILRAJH R., [svkapilvs@gmail.com](mailto:svkapilvs@gmail.com)
+-  E/15/351, THAKSHAJINI S., [tsuhumar8@gmail.com](mailto:tsuhumar8@gmail.com)
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Solution Architecture](#solution-architecture )
 3. [Hardware & Software Designs](#hardware-and-software-designs)
-4. [Testing](#testing)
-5. [Detailed budget](#detailed-budget)
-6. [Conclusion](#conclusion)
-7. [Links](#links)
+4. [Links](#links)
 
 ---
 
 ## Introduction
 
- description of the real world problem and solution, impact
+In libraries, We have planned to implement a book carrying robot to help the workers.Our embedded system will have Arduino,IR sensors,DC motors,power batteries and voltage regulator etc.It will work as a line following robot.Wi-fi module is used to communicate with a robot.We use RFID tag for books to use a web application,a database and a server to store the book details as well as the location details about the book shelfs for each and every book.
 
 ## Solution Architecture
 
- high level diagram + description
+* Making an automated book picking robot to help the workers in the library.
+* The robot saves time and reduces human effort.
+* It reduces human error and manages the books in an efficient and effective way.
+* It is always available in the library.
+* It is reliable.
+* It ensures the security of the library and keeps the book safe.
 
 ## Hardware and Software Designs
 
- detailed designs with many sub-sections
+ #### Basic Circuit Design for the Line Following Robot.  
+ ![Image](data/images/)  
+ #### Final Product  
+ [Demonstration 01](data/videos/)  
+ [Demonstration 02](data/videos/)
 
-## Testing
 
- testing done on hardware and software, detailed + summarized results
 
-## Detailed budget
+## Links  
+### Documents  
+- [Project Report](data/documents/)  
+- [Project Proposal](data/documents/)  
 
- all items and costs
-
-| Item          | Quantity  | Unit Cost  | Total  |
-| ------------- |:---------:|:----------:|-------:|
-| Sample item   | 5         | 10 LKR     | 50 LKR |
-
-## Conclusion
-
- what was achieved, future developments, commercialization plans
-
-## Links
-
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
+### Other Links
+- <a href = "https://github.com/cepdnaclk/e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)
