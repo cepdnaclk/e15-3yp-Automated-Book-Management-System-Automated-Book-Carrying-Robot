@@ -45,7 +45,7 @@ In libraries, We have planned to implement a book carrying robot to help the wor
  #### Basic Circuit Design for the Line Following Robot.  
  ![Image](data/images/circuit_design.png)  
  #### Final Product  
- ![Image](data/images/final.JPG)
+ ![Image](data/images/final1.JPG)
 
 
 
