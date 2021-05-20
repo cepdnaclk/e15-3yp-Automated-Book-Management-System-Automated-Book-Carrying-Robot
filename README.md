@@ -1,55 +1,66 @@
-# eYY-3yp-project-template
+---
+layout: home
+permalink: index.html
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+# Please update this with your repository name and title
+repository-name: e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot
 
-### Enable GitHub Pages
+title: Automated Book Management System - Automated Book Carrying Robot
+---
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+# Automated Book Management System - Automated Book Carrying Robot
 
-### Special Configurations
+---
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+## Team
+-  E/15/016, ANOJAN S., [e15016@eng.pdn.ac.lk](mailto:e15016@eng.pdn.ac.lk)
+-  E/15/171, KAPILRAJH R., [svkapilvs@gmail.com](mailto:svkapilvs@gmail.com)
+-  E/15/351, THAKSHAJINI S., [tsuhumar8@gmail.com](mailto:tsuhumar8@gmail.com)
 
-```
-{
-  "visibility": false,
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "description": "This is a brief introduction of the project. You need to use plain text without any specific characters here",
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Hardware & Software Designs](#hardware-and-software-designs)
+4. [Links](#links)
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool). Then change the _'visibility'_ property of the above json to _true_.
+---
 
-### Page Theme
+## Introduction
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_
+In libraries, We have planned to implement a book carrying robot to help the workers.Our embedded system will have Arduino,IR sensors,DC motors,power batteries and voltage regulator etc.It will work as a line following robot.Wi-fi module is used to communicate with a robot.We use RFID tag for books to use a web application,a database and a server to store the book details as well as the location details about the book shelfs for each and every book.
+
+## Solution Architecture
+
+* Making an automated book picking robot to help the workers in the library.
+* The robot saves time and reduces human effort.
+* It reduces human error and manages the books in an efficient and effective way.
+* It is always available in the library.
+* It is reliable.
+* It ensures the security of the library and keeps the book safe.
+
+## Hardware and Software Designs
+
+ #### Basic Circuit Design for the Line Following Robot.  
+ ![Image](data/images/circuit_design.png)  
+ #### Final Product  
+ ![Image](data/images/final1.JPG)
+
+
+
+
+## Links  
+### Documents  
+- [Project Report](data/documents/pro_report.pptx)  
+- [Project Proposal](data/documents/ProjectProposalRevisionWorkshop.pdf)  
+
+### Other Links
+- <a href = "https://github.com/cepdnaclk/e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
