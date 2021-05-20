@@ -43,17 +43,17 @@ In libraries, We have planned to implement a book carrying robot to help the wor
 ## Hardware and Software Designs
 
  #### Basic Circuit Design for the Line Following Robot.  
- ![Image](data/images/circuit_design.png)  
+ ![Image](docs/data/images/circuit_design.png)  
  #### Final Product  
- ![Image](data/images/final1.JPG)
+ ![Image](docs/data/images/final1.JPG)
 
 
 
 
 ## Links  
 ### Documents  
-- [Project Report](data/documents/pro_report.pptx)  
-- [Project Proposal](data/documents/ProjectProposalRevisionWorkshop.pdf)  
+- [Project Report](docs/data/documents/pro_report.pptx)  
+- [Project Proposal](docs/data/documents/ProjectProposalRevisionWorkshop.pdf)  
 
 ### Other Links
 - <a href = "https://github.com/cepdnaclk/e15-3yp-Automated-Book-Management-System-Automated-Book-Carrying-Robot" target = "_blank"> Project Repository </a>
